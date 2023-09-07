@@ -218,8 +218,8 @@ showHideDone.addEventListener("click", (e) => {
 	moreOptionsContainer.style.display = "none";
 
 	if (changed > 0) {
-		if (hidden) showHideDone.innerHTML = `<img src="img/hide.png" alt="Hide done" /> Hide done tasks`;
-		else showHideDone.innerHTML = `<img src="img/show.png" alt="Show done" /> Show done tasks`;
+		if (hidden) showHideDone.innerHTML = `<img src="img/hide.png" alt="Hide done" /> Ẩn công việc đã xong`;
+		else showHideDone.innerHTML = `<img src="img/show.png" alt="Show done" /> Hiện công việc đã xong`;
 		hidden = !hidden;
 	}
 });
