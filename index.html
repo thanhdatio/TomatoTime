@@ -12,15 +12,15 @@
 		<header>
 			<p class="logo"><img src="img/tomato.png" alt="Tomato Time" /> Tomato Time</p>
 			<div>
-				<button id="about"><img src="img/about.png" alt="About" /></button>
-				<button id="settings"><img src="img/settings.png" alt="Settings" /></button>
+				<button id="about"><img src="img/about.png" alt="Hướng dẫn" /></button>
+				<button id="settings"><img src="img/settings.png" alt="Cài đặt" /></button>
 			</div>
 		</header>
 		<div class="clock-section" id="clock-section">
 			<ul class="time-types">
-				<li id="work-button">Work</li>
-				<li id="short-break-button">Short Break</li>
-				<li id="long-break-button">Long Break</li>
+				<li id="work-button">Làm việc</li>
+				<li id="short-break-button">Nghỉ ngắn</li>
+				<li id="long-break-button">Nghỉ dài</li>
 			</ul>
 			<div class="timer" id="timer"></div>
 			<div class="time-bar">
@@ -30,45 +30,44 @@
 		</div>
 		<div class="tasks-section">
 			<div class="title">
-				<p>Tasks</p>
+				<p>Công việc</p>
 				<div>
 					<img src="img/points.png" alt="More options" id="more-options-button" />
 					<div class="more-options" id="more-options">
-						<button id="show-hide-done"><img src="img/hide.png" alt="Hide done" /> Hide done tasks</button>
-						<button id="delete-done"><img src="img/done.png" alt="Delete done" /> Delete done tasks</button>
-						<button id="delete-undone"><img src="img/undone.png" alt="Delete undone" /> Delete undone tasks</button>
-						<button id="delete-all"><img src="img/delete.png" alt="Delete all" /> Delete all tasks</button>
+						<button id="show-hide-done"><img src="img/hide.png" alt="Hide done" /> Ẩn công việc đã xong</button>
+						<button id="delete-done"><img src="img/done.png" alt="Delete done" /> Xóa công việc đã xong</button>
+						<button id="delete-undone"><img src="img/undone.png" alt="Delete undone" /> Xóa công việc chưa xong</button>
+						<button id="delete-all"><img src="img/delete.png" alt="Delete all" /> Xóa tất cả công việc</button>
 					</div>
 				</div>
 			</div>
 			<ul class="tasks-container" id="tasks-container"></ul>
 			<div class="new-container" id="new-container">
-				<input type="text" name="" placeholder="What are you going to do?" id="new-task" class="new-task" />
-				<button id="cancel-task">Cancel</button>
-				<button id="save-task">Save</button>
+				<input type="text" name="" placeholder="Bạn đang muốn làm gì?" id="new-task" class="new-task" />
+				<button id="cancel-task">Hủy</button>
+				<button id="save-task">Lưu</button>
 			</div>
-			<button id="add-task" class="add-task">+ Add task</button>
+			<button id="add-task" class="add-task">+ Thêm công việc</button>
 		</div>
 		<footer class="signature">
-			<p>Made with ❤ by <a target="_blanck" href="https://github.com/paladinescamila">Camila Paladines</a></p>
+			<p><a target="_blanck" href="https://www.thanhdat.io">ThanhDatIO</a></p>
 		</footer>
 		<!-- About container -->
 		<div class="dark-bg" id="display-about">
 			<div class="about-container" id="about-box">
-				<p>About</p>
-				<p class="about-content">Tomato Time is an application that allows you to use the pomodoro technique to manage the time you use to perform certain tasks.</p>
-				<p class="about-title">What is the pomodoro technique?</p>
+				<p>Hướng dẫn</p>
+				<p class="about-content">Tomato Time là một ứng dụng cho phép bạn sử dụng kỹ thuật pomodoro để quản lý thời gian bạn sử dụng để thực hiện một số nhiệm vụ nhất định.</p>
+				<p class="about-title">Kỹ thuật pomodoro là gì?</p>
 				<p class="about-content">
-					The Pomodoro Technique is a time management system that helps people to work with the time they have. With this method, you divide your workday into 25-minute chunks separated by
-					5-minute breaks. These intervals are called pomodoros. After about four pomodoros, take a longer break of about 10-15 minutes.
+					Kỹ thuật Pomodoro là một hệ thống quản lý thời gian giúp mọi người làm việc với thời gian họ có. Với phương pháp này, bạn chia ngày làm việc của mình thành các khoảng thời gian 25 phút, cách nhau 5 phút nghỉ giải lao. Những khoảng thời gian này được gọi là pomodoros. Sau khoảng 4 pomodoro, hãy nghỉ dài hơn khoảng 10-15 phút.
 				</p>
-				<p class="about-title">How to use the pomodoro technique?</p>
+				<p class="about-title">Làm thế nào để sử dụng kỹ thuật pomodoro?</p>
 				<ol class="about-content">
-					<li>Customize work times and breaks.</li>
-					<li>Add tasks to work on.</li>
-					<li>Start the timer and focus on the task for 25 minutes.</li>
-					<li>Take a 5 minute break when work time is complete.</li>
-					<li>Repeat 4 times until you finish the tasks.</li>
+					<li>Tùy chỉnh thời gian làm việc và nghỉ giải lao.</li>
+					<li>Thêm công việc cần làm.</li>
+					<li>Bắt đầu bấm giờ và tập trung vào công việc trong 25 phút.</li>
+					<li>Nghỉ giải lao 5 phút khi hết thời gian làm việc.</li>
+					<li>Lặp lại 4 lần cho đến khi hoàn thành công việc.</li>
 				</ol>
 				<button id="cancel-about" class="x-cancel"><img src="img/x.png" /></button>
 			</div>
@@ -76,37 +75,37 @@
 		<!-- Settings container -->
 		<div class="dark-bg" id="display-settings">
 			<form class="settings-container" id="settings-box">
-				<p>Settings</p>
+				<p>Cài đặt</p>
 				<div class="work-container">
-					<label for="work-value">Work</label>
+					<label for="work-value">Công việc</label>
 					<input class="number-input" type="number" id="work-value" />
 					<div class="color-button" id="work-color"></div>
 				</div>
 				<div class="short-container">
-					<label for="short-break-value">Short Break</label>
+					<label for="short-break-value">Nghỉ ngắn</label>
 					<input class="number-input" type="number" id="short-break-value" />
 					<div class="color-button" id="short-color"></div>
 				</div>
 				<div class="long-container">
-					<label for="long-break-value">Long Break</label>
+					<label for="long-break-value">Nghỉ dài</label>
 					<input class="number-input" type="number" id="long-break-value" />
 					<div class="color-button" id="long-color"></div>
 				</div>
 				<div class="auto-inputs as-work-container">
-					<p>Auto start pomodoros?</p>
+					<p>Tự động bắt đầu?</p>
 					<input type="checkbox" id="auto-work-value" />
 					<label for="auto-work-value"></label>
 				</div>
 				<div class="auto-inputs as-break-container">
-					<p>Auto start breaks?</pfor=>
+					<p>Tự động vào thời gian nghỉ?</pfor=>
 					<input type="checkbox" id="auto-break-value" />
 					<label for="auto-break-value"></label>
 				</div>
 				<div class="auto-inputs interval-container">
-					<label for="interval-value">Long Break interval</label>
+					<label for="interval-value">Khoảng thời gian nghỉ dài</label>
 					<input class="number-input" type="number" id="interval-value" />
 				</div>
-				<button id="save-settings" class="save-settings">Save</button>
+				<button id="save-settings" class="save-settings">Lưu</button>
 				<button id="cancel-settings" class="x-cancel"><img src="img/x.png" /></button>
 			</form>
 		</div>
