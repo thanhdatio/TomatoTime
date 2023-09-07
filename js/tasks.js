@@ -31,8 +31,8 @@ const taskElement = (task) => {
 			<img id="rename-${task.id}" src="img/rename.png">
 			<img id="delete-${task.id}" src="img/delete.png">
 		</div>
-		<button id="cancel-${task.id}">Cancel</button>
-		<button id="save-${task.id}">Save</button>
+		<button id="cancel-${task.id}">Hủy</button>
+		<button id="save-${task.id}">Lưu</button>
 	`;
 
 	return element;
