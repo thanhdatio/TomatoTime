@@ -56,18 +56,18 @@
 		<div class="dark-bg" id="display-about">
 			<div class="about-container" id="about-box">
 				<p>Hướng dẫn</p>
-				<p class="about-content">Tomato Time là một ứng dụng cho phép bạn sử dụng kỹ thuật pomodoro để quản lý thời gian bạn sử dụng để thực hiện một số nhiệm vụ nhất định.</p>
+				<p class="about-content">Tomato Time là một ứng dụng cho phép bạn sử dụng kỹ thuật pomodoro giúp bạn tập trung vào xử lý công việc.</p>
 				<p class="about-title">Kỹ thuật pomodoro là gì?</p>
 				<p class="about-content">
-					Kỹ thuật Pomodoro là một hệ thống quản lý thời gian giúp mọi người làm việc với thời gian họ có. Với phương pháp này, bạn chia ngày làm việc của mình thành các khoảng thời gian 25 phút, cách nhau 5 phút nghỉ giải lao. Những khoảng thời gian này được gọi là pomodoros. Sau khoảng 4 pomodoro, hãy nghỉ dài hơn khoảng 10-15 phút.
+					Kỹ thuật Pomodoro là một phương pháp quản lý thời gian làm việc. Với phương pháp này, bạn chia nhỏ các công việc ra, tập trung hoàn thành công việc trong khoảng thời gian tiêu chuẩn là 25 phút (hoặc tùy chỉnh theo bạn), sau đó là 5 phút nghỉ ngắn. Khoảng thời gian này được gọi là pomodoro. Sau khoảng 4 pomodoro, bạn cần nghỉ dài khoảng 10-15 phút.
 				</p>
 				<p class="about-title">Làm thế nào để sử dụng kỹ thuật pomodoro?</p>
 				<ol class="about-content">
 					<li>Tùy chỉnh thời gian làm việc và nghỉ giải lao.</li>
 					<li>Thêm công việc cần làm.</li>
-					<li>Bắt đầu bấm giờ và tập trung vào công việc trong 25 phút.</li>
-					<li>Nghỉ giải lao 5 phút khi hết thời gian làm việc.</li>
-					<li>Lặp lại 4 lần cho đến khi hoàn thành công việc.</li>
+					<li>Bắt đầu bấm giờ và tập trung vào công việc trong thời gian đã định.</li>
+					<li>Nghỉ ngắn khi hết thời gian làm việc.</li>
+					<li>Lặp lại N lần cho đến khi hoàn thành công việc.</li>
 				</ol>
 				<button id="cancel-about" class="x-cancel"><img src="img/x.png" /></button>
 			</div>
@@ -77,17 +77,17 @@
 			<form class="settings-container" id="settings-box">
 				<p>Cài đặt</p>
 				<div class="work-container">
-					<label for="work-value">Công việc</label>
+					<label for="work-value">Thời gian làm việc</label>
 					<input class="number-input" type="number" id="work-value" />
 					<div class="color-button" id="work-color"></div>
 				</div>
 				<div class="short-container">
-					<label for="short-break-value">Nghỉ ngắn</label>
+					<label for="short-break-value">Thời gian nghỉ ngắn</label>
 					<input class="number-input" type="number" id="short-break-value" />
 					<div class="color-button" id="short-color"></div>
 				</div>
 				<div class="long-container">
-					<label for="long-break-value">Nghỉ dài</label>
+					<label for="long-break-value">Thời gian nghỉ dài</label>
 					<input class="number-input" type="number" id="long-break-value" />
 					<div class="color-button" id="long-color"></div>
 				</div>
@@ -102,7 +102,7 @@
 					<label for="auto-break-value"></label>
 				</div>
 				<div class="auto-inputs interval-container">
-					<label for="interval-value">Khoảng thời gian nghỉ dài</label>
+					<label for="interval-value">Số lần lặp lại</label>
 					<input class="number-input" type="number" id="interval-value" />
 				</div>
 				<button id="save-settings" class="save-settings">Lưu</button>
