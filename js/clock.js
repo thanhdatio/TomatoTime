@@ -10,7 +10,7 @@ const goButton = document.getElementById("go-button");
 const format = (n) => (n < 10 ? "0" + n : n);
 timerContainer.innerHTML = `${format(getLS("workTime"))}:00`;
 
-let timeNames = ["Work", "Short Break", "Long Break"],
+let timeNames = ["Làm việc", "Nghỉ ngắn", "Nghỉ dài"],
 	timeType = 1,
 	numberOfPomodoros = 1,
 	stopped = false,
